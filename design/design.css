@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bold{
+    padding: 35px 35px;
+    width: 50%;
+    height: 40%;
+    color: white;
+    line-height: 19px;
+    font-size: 13px;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+
+.bold h1{
+    padding: 20px 0px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.bold p{
+    padding-bottom: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.one{
+    background-color: #e2852d;
+    border-radius: 8px 8px 0 0;
+}
+
+.one button{
+    color: #e2852d;
+    text-decoration: none;
+    border-radius: 40px;
+    height: 35px;
+    width: 110px;
+    border: transparent;
+}
+
+.one button:hover{
+    background-color: #e2852d;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.two{
+    background-color: #296972;
+}
+
+.two button{
+    color: #296972;
+    text-decoration: none;
+    border-radius: 40px;
+    height: 35px;
+    width: 110px;
+    border: transparent;
+}
+
+.two button:active{
+    background-color: #296972;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.three{
+    background-color: #17413f;
+    border-radius: 0 0 8px 8px;
+}
+
+.three button{
+    color: #17413f;
+    text-decoration: none;
+    border-radius: 40px;
+    height: 35px;
+    width: 110px;
+    border: transparent;
+}
+
+.three button:active{
+    background-color: #17413f;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+@media(min-width: 768px){
+    .container{
+        display: flex;
+        flex-direction: row;
+        margin: 220px 220px;
+        align-items: center;
+        justify-content: center;
+        max-width: 30px 30px;
+    }
+
+    .one{
+        border-radius: 8px 0 0 8px;
+    }
+
+    .three{
+        border-radius: 0 8px 8px 0;
+    }
+
+    .bold{
+        /* margin-top: 50; */
+        width: 50%;
+        height: 40%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bold button{
+        margin-top: 30px;
+    }
+}
